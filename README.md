@@ -1,1 +1,2 @@
-"# UniUnity" 
+UniUnity is a mobile application designed to foster a vibrant campus community. The app will serve as a central hub for student clubs, allowing them to view clubs and their updates. On the other side, club managers can send requests for events approval from SKS in an efficient way. SKS can manage clubs and their requests. 
+This app aims to bridge the gap between students and clubs, foostering more connected and involved campus environment.
