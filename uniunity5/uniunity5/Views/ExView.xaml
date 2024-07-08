@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="uniunity5.Views.ExView"
+             Title="ExView">
+    <ScrollView>
+    <VerticalStackLayout>
+        
+        <Label Text="Student:" FontAttributes="Bold"/>
+
+        <Label Text="name"/>
+        <Entry x:Name="Name"/>
+        
+        <Label Text="email"/>
+        <Entry x:Name="Email"/>
+        
+        <Label Text="password"/>
+        <Entry x:Name="Password"/>
+            
+       
+            
+        <Label Text="phone"/>
+        <Entry x:Name="Phone"/>
+
+
+        <Button Text="add" Clicked="Button_Clicked"/>
+        <Button Text="delete" Clicked="Button_Clicked_1"/>
+
+
+        <ListView x:Name="Studentlist" HasUnevenRows="True" ItemTapped="Studentlist_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                                <Label TextColor="Black" Text="{Binding StudentName}"/>
+                                <Label TextColor="Black" Text="{Binding  StudentPassword}"/>
+                                <Label TextColor="Black" Text="{Binding  StudentEmail}"/>
+                                <Label TextColor="Black" Text="{Binding  StudentPhone}"/>
+                            </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

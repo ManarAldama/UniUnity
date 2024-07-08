@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="uniunity5.SksViews.HomePageSks"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:stans="clr-namespace:uniunity5.DataTransactions">
+
+
+    <ContentPage.BindingContext>
+        <stans:StudentTrans />
+    </ContentPage.BindingContext>
+
+
+
+    <ScrollView>
+        <StackLayout Padding="30,0" Spacing="20">
+
+
+            <HorizontalStackLayout>
+                <Label
+                    FontAttributes="Bold"
+                    HorizontalOptions="Start"
+                    SemanticProperties.HeadingLevel="Level1"
+                    Style="{StaticResource Headline}"
+                    Text="Hello"
+                    TextColor="#01B399"
+                    TranslationX="-5" />
+
+                <Label
+                    x:Name="labelN"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Start"
+                    SemanticProperties.HeadingLevel="Level1"
+                    Style="{StaticResource Headline}"
+                    Text="{Binding SKSName}"
+                    TextColor="Black" />
+
+                <Label
+                    FontAttributes="Bold"
+                    HorizontalOptions="Start"
+                    SemanticProperties.HeadingLevel="Level1"
+                    Style="{StaticResource Headline}"
+                    Text="!"
+                    TextColor="Black" />
+              
+
+            </HorizontalStackLayout>
+
+
+            <StackLayout>
+                <Frame
+                    Padding="10"
+                    BackgroundColor="#FEEDED"
+                    BorderColor="#FEEDED"
+                    CornerRadius="10"
+                    HasShadow="False"
+                    HeightRequest="95"
+                    WidthRequest="325">
+
+                    <Label
+                        FontAttributes="Bold"
+                        FontSize="17"
+                        Text="Now that you are all set, make sure to attend the uni events and enjoy your uni life!"
+                        TextColor="Black" />
+                </Frame>
+
+
+            </StackLayout>
+
+
+            <StackLayout TranslationY="17">
+                <Frame
+                    Margin="5,0,5,0"
+                    Padding="0"
+                    BackgroundColor="White"
+                    BorderColor="#841FFD"
+                    CornerRadius="15"
+                    HeightRequest="40"
+                    WidthRequest="350">
+
+                    <SearchBar Placeholder="Search for Events" TextChanged="SearchBar_TextChanged" />
+
+                </Frame>
+
+
+
+            </StackLayout>
+
+            <Label
+                FontAttributes="Bold"
+                FontSize="20"
+                HorizontalOptions="Start"
+                Text="Activities"
+                TextColor="Gray"
+                TranslationY="10"
+                VerticalOptions="Center" />
+
+
+
+
+            <CollectionView x:Name="ev_li_view" ItemsSource="{Binding Events}">
+
+
+                <!--  Set the ItemsLayout to a horizontal layout with two items per row  -->
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2" />
+                </CollectionView.ItemsLayout>
+
+
+                <!--  Define the Item Template  -->
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+
+                        <Frame
+                            Background="Transparent"
+                            CornerRadius="5"
+                            HasShadow="True"
+                            HeightRequest="200"
+                            HorizontalOptions="StartAndExpand"
+                            WidthRequest="200">
+
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnFrameTapped" />
+                            </Frame.GestureRecognizers>
+
+
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+
+                                    <ColumnDefinition Width="*" />
+
+                                </Grid.ColumnDefinitions>
+
+
+                                <!--  Event Image  -->
+                                <Image
+                                    x:Name="event_img"
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    Aspect="AspectFit"
+                                    HorizontalOptions="Center"
+                                    Source="{Binding ImageSource}"
+                                    VerticalOptions="Center" />
+
+
+                                <!--  Event Title  -->
+                                <Label
+                                    x:Name="event_title"
+                                    Grid.Row="1"
+                                    Grid.Column="0"
+                                    Margin="5,0,5,0"
+                                    FontSize="13"
+                                    HorizontalOptions="StartAndExpand"
+                                    LineBreakMode="WordWrap"
+                                    Text="{Binding EventName}"
+                                    TextColor="Black"
+                                    VerticalOptions="Center" />
+                            </Grid>
+
+                        </Frame>
+
+
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+
+
+
+
+
+
+
+        </StackLayout>
+
+    </ScrollView>
+
+
+
+
+</ContentPage>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="uniunity5.Login1"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Shell.TabBarIsVisible="False">
+    <ScrollView>
+        <VerticalStackLayout Padding="85,0" Spacing="25">
+
+            <Image
+                Aspect="AspectFill"
+                HeightRequest="150"
+                Source="uulogo.jpeg" />
+
+            <Label
+                Margin="0,20,0,0"
+                FontAttributes="Bold"
+                FontFamily="Hanuman"
+                FontSize="25"
+                HeightRequest="120"
+                Style="{StaticResource Headline}">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Üsküdar " TextColor="#01B399" />
+                        <Span Text="University" TextColor="Black" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+
+
+            <StackLayout>
+
+
+                <Label
+                    FontAttributes="Bold"
+                    HorizontalOptions="Start"
+                    Text="Email"
+                    TranslationX="-60"
+                    TranslationY="-50"
+                    WidthRequest="100" />
+
+                <Entry
+                    x:Name="EmailEntry"
+                    HorizontalOptions="FillAndExpand"
+                    Placeholder="example@uskudar.edu.tr"
+                    TranslationY="-50"
+                    WidthRequest="350" />
+
+
+
+
+
+
+                <Label
+                    FontAttributes="Bold"
+                    HorizontalOptions="Start"
+                    Text="Password"
+                    TranslationX="-60"
+                    TranslationY="-40"
+                    WidthRequest="100" />
+
+
+                <Entry
+                    x:Name="PasswordEntry"
+                    HorizontalOptions="FillAndExpand"
+                    IsPassword="True"
+                    Placeholder="Enter Your Password"
+                    TranslationY="-40"
+                    WidthRequest="350" />
+
+
+
+
+                <Button
+                    Margin="0,20,0,0"
+                    BackgroundColor="#01B399"
+                    Clicked="OnLoginClicked"
+                    CornerRadius="20"
+                    HorizontalOptions="FillAndExpand"
+                    Text="Login"
+                    WidthRequest="300" />
+
+            </StackLayout>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

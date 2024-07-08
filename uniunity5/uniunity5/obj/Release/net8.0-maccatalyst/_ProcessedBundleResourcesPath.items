@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\iconblank@3x.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\iconblank@2x.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\iconblank.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\home.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\dd.jpeg" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\calendar.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\aa.jpeg" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\xicon.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\myclub.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\modify.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\image4.jpeg" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\image3.jpeg" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\dotnet_bot.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\calenderimage.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\arrow.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\search.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\profile.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\image6.jpeg" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\image5.jpeg" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\ee.jpeg" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\cc.jpeg" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\bb.jpeg" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\uulogo.jpeg" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\uploadicon.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\interview.jpeg" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\imageevent4.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\ff.jpeg" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\clubs.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\account.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\uniunity_logo.jpg" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\second.jpeg" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\logo2.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\logo1.PNG" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\image1.jpeg" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\date.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\back.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\michrophoneimage.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\first.jpeg" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\arrow1.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\imageevent2.png" />
+    <BundleResource Include="C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\aaa.PNG" />
+    <BundleResource Include="obj\Release\net8.0-maccatalyst\resizetizer\f\OpenSans-Regular.ttf" />
+    <BundleResource Include="obj\Release\net8.0-maccatalyst\resizetizer\f\OpenSans-Semibold.ttf" />
+  </ItemGroup>
+</Project>

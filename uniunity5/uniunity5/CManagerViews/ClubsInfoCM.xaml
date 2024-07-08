@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="uniunity5.CManagerViews.ClubsInfoCM"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+
+    <ScrollView>
+        <VerticalStackLayout Padding="10,20, 16,0" Spacing="10" HorizontalOptions="StartAndExpand">
+
+            <StackLayout  Orientation="Horizontal">
+
+                <Grid Margin="0,30,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                </Grid>
+                
+             
+                   <Label
+                        x:Name="clubNameLabel"
+                        Grid.Column="0"
+                        FontAttributes="Bold"
+                        FontFamily="page.title"
+                        FontSize="20"
+                        HorizontalTextAlignment="Start"
+                        Text="{Binding ClubName}" />
+              
+           
+        
+                     <Label   
+                        Grid.Column="1"
+                        Text="X"
+                        HorizontalOptions="EndAndExpand"
+                        FontFamily="page.title"
+                        FontSize="25"                 
+                        FontAttributes="Bold"
+                        TextColor="Black" >
+
+                       <Label.GestureRecognizers>
+                          <TapGestureRecognizer Tapped="OnButtonClicked1" />
+                       </Label.GestureRecognizers>
+                     </Label>
+
+
+            </StackLayout>
+        
+            <Grid>
+                
+                <Image
+                    x:Name="logo1"
+                    BindingContext="{Binding ImageSourceclub}"
+                    HeightRequest="300"
+                    HorizontalOptions="CenterAndExpand"
+                    IsVisible="True"
+                    Aspect="Fill"
+                    VerticalOptions="CenterAndExpand"
+                    WidthRequest="400" />
+            </Grid>
+
+            <Frame
+                Padding="12,16,16,16"
+                HeightRequest="70"
+                WidthRequest="450">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label
+                        Grid.Column="0"
+                        FontAttributes="Bold"
+                        FontSize="15"
+                        Text="Email: "
+                        VerticalOptions="Center" />
+
+                    <Label
+                        x:Name="emailLabel"
+                        Grid.Column="1"
+                        FontSize="15"
+                        Text="{Binding ClubEmail}"
+                        VerticalOptions="Center" />
+
+                </Grid>
+
+
+            </Frame>
+
+            <Grid Padding="0,15,15,15" ColumnSpacing="5">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Label
+                    Grid.Column="0"
+                    FontAttributes="Bold"
+                    FontFamily="page.title"
+                    FontSize="18"
+                    HorizontalOptions="StartAndExpand"
+                    HorizontalTextAlignment="Start"
+                    Text="About "
+                    VerticalOptions="Start" />
+
+                <Label
+                    x:Name="label1"
+                    Grid.Column="1"
+                    FontAttributes="Bold"
+                    FontFamily="page.title"
+                    FontSize="18"
+                    HorizontalOptions="Start"
+                    HorizontalTextAlignment="Start"
+                    Text="{Binding ClubName}"
+                    VerticalOptions="Start" />
+
+                <Label
+                    Grid.Column="2"
+                    FontAttributes="Bold"
+                    FontFamily="page.title"
+                    FontSize="18"
+                    Text="Club :" />
+            </Grid>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+
+                <Label
+                    x:Name="label2"
+                    Grid.Column="1"
+                    FontFamily="page.title"
+                    FontSize="18"
+                    Text="{Binding Description}"
+                    VerticalOptions="Center" />
+
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

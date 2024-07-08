@@ -1,0 +1,227 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = uniunity5
+build_property.ProjectDir = C:\Users\isc\Desktop\VS projects\uniunity5\uniunity5\uniunity5\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/ClubManagerLogin.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.ClubManagerLogin.xaml
+build_metadata.AdditionalFiles.TargetPath = ClubManagerLogin.xaml
+build_metadata.AdditionalFiles.RelativePath = ClubManagerLogin.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/clubsExternalView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.clubsExternalView.xaml
+build_metadata.AdditionalFiles.TargetPath = clubsExternalView.xaml
+build_metadata.AdditionalFiles.RelativePath = clubsExternalView.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/CManagerViews/AccountPageCManager.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.CManagerViews.AccountPageCManager.xaml
+build_metadata.AdditionalFiles.TargetPath = CManagerViews\AccountPageCManager.xaml
+build_metadata.AdditionalFiles.RelativePath = CManagerViews\AccountPageCManager.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/CManagerViews/ActivityForm.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.CManagerViews.ActivityForm.xaml
+build_metadata.AdditionalFiles.TargetPath = CManagerViews\ActivityForm.xaml
+build_metadata.AdditionalFiles.RelativePath = CManagerViews\ActivityForm.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/CManagerViews/ClubsInfoCM.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.CManagerViews.ClubsInfoCM.xaml
+build_metadata.AdditionalFiles.TargetPath = CManagerViews\ClubsInfoCM.xaml
+build_metadata.AdditionalFiles.RelativePath = CManagerViews\ClubsInfoCM.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/CManagerViews/ClubsPageCM.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.CManagerViews.ClubsPageCM.xaml
+build_metadata.AdditionalFiles.TargetPath = CManagerViews\ClubsPageCM.xaml
+build_metadata.AdditionalFiles.RelativePath = CManagerViews\ClubsPageCM.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/CManagerViews/CManagerExternalView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.CManagerViews.CManagerExternalView.xaml
+build_metadata.AdditionalFiles.TargetPath = CManagerViews\CManagerExternalView.xaml
+build_metadata.AdditionalFiles.RelativePath = CManagerViews\CManagerExternalView.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/CManagerViews/CMShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.CManagerViews.CMShell.xaml
+build_metadata.AdditionalFiles.TargetPath = CManagerViews\CMShell.xaml
+build_metadata.AdditionalFiles.RelativePath = CManagerViews\CMShell.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/CManagerViews/HomePageCManager.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.CManagerViews.HomePageCManager.xaml
+build_metadata.AdditionalFiles.TargetPath = CManagerViews\HomePageCManager.xaml
+build_metadata.AdditionalFiles.RelativePath = CManagerViews\HomePageCManager.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/CManagerViews/MyClub.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.CManagerViews.MyClub.xaml
+build_metadata.AdditionalFiles.TargetPath = CManagerViews\MyClub.xaml
+build_metadata.AdditionalFiles.RelativePath = CManagerViews\MyClub.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/CManagerViews/SearchPageCM.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.CManagerViews.SearchPageCM.xaml
+build_metadata.AdditionalFiles.TargetPath = CManagerViews\SearchPageCM.xaml
+build_metadata.AdditionalFiles.RelativePath = CManagerViews\SearchPageCM.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/eventsExternalView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.eventsExternalView.xaml
+build_metadata.AdditionalFiles.TargetPath = eventsExternalView.xaml
+build_metadata.AdditionalFiles.RelativePath = eventsExternalView.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Login.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/Login1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.Login1.xaml
+build_metadata.AdditionalFiles.TargetPath = Login1.xaml
+build_metadata.AdditionalFiles.RelativePath = Login1.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/LoginType.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.LoginType.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginType.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginType.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/SksViews/AccountPageSks.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.SksViews.AccountPageSks.xaml
+build_metadata.AdditionalFiles.TargetPath = SksViews\AccountPageSks.xaml
+build_metadata.AdditionalFiles.RelativePath = SksViews\AccountPageSks.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/SksViews/AddClub.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.SksViews.AddClub.xaml
+build_metadata.AdditionalFiles.TargetPath = SksViews\AddClub.xaml
+build_metadata.AdditionalFiles.RelativePath = SksViews\AddClub.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/SksViews/ClubInfosks.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.SksViews.ClubInfosks.xaml
+build_metadata.AdditionalFiles.TargetPath = SksViews\ClubInfosks.xaml
+build_metadata.AdditionalFiles.RelativePath = SksViews\ClubInfosks.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/SksViews/ClubsPageSks.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.SksViews.ClubsPageSks.xaml
+build_metadata.AdditionalFiles.TargetPath = SksViews\ClubsPageSks.xaml
+build_metadata.AdditionalFiles.RelativePath = SksViews\ClubsPageSks.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/SksViews/HomePageSks.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.SksViews.HomePageSks.xaml
+build_metadata.AdditionalFiles.TargetPath = SksViews\HomePageSks.xaml
+build_metadata.AdditionalFiles.RelativePath = SksViews\HomePageSks.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/SksViews/SearchPageSks.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.SksViews.SearchPageSks.xaml
+build_metadata.AdditionalFiles.TargetPath = SksViews\SearchPageSks.xaml
+build_metadata.AdditionalFiles.RelativePath = SksViews\SearchPageSks.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/SksViews/SksExternalView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.SksViews.SksExternalView.xaml
+build_metadata.AdditionalFiles.TargetPath = SksViews\SksExternalView.xaml
+build_metadata.AdditionalFiles.RelativePath = SksViews\SksExternalView.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/SksViews/SksShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.SksViews.SksShell.xaml
+build_metadata.AdditionalFiles.TargetPath = SksViews\SksShell.xaml
+build_metadata.AdditionalFiles.RelativePath = SksViews\SksShell.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/Views/AccountPageSt.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.Views.AccountPageSt.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AccountPageSt.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AccountPageSt.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/Views/Calendar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.Views.Calendar.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Calendar.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Calendar.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/Views/Clubinfo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.Views.Clubinfo.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Clubinfo.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Clubinfo.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/Views/ClubsPageSt.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.Views.ClubsPageSt.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ClubsPageSt.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ClubsPageSt.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/Views/ExView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.Views.ExView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ExView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ExView.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/Views/HomePageSt.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.Views.HomePageSt.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HomePageSt.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HomePageSt.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/Views/SearchPageSt.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.Views.SearchPageSt.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SearchPageSt.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SearchPageSt.xaml
+
+[C:/Users/isc/Desktop/VS projects/uniunity5/uniunity5/uniunity5/Welcome.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uniunity5.Welcome.xaml
+build_metadata.AdditionalFiles.TargetPath = Welcome.xaml
+build_metadata.AdditionalFiles.RelativePath = Welcome.xaml

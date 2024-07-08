@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "uniunity5", "uniunity5\uniunity5.csproj", "{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFEB8D47-0FBB-417B-8A98-3D8634BC7F6C}
+	EndGlobalSection
+EndGlobal

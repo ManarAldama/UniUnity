@@ -1,0 +1,42 @@
+Records
+
+Student
+----
+1) name: ali
+   email: ali@uskudar.edu.tr 
+   pass: ali123
+   phone: 05527247729
+
+
+2) name: ahmad
+   email:ahmad@uskudar.edu.tr
+   pass: ahmad123
+   phone: 0556422468
+
+
+SKS
+----
+1) name: sks
+   email:sks@uskudar.edu.tr
+   pass: sks123
+   phone: 0554392290
+
+
+Club Manager
+----
+1) name: mohammad
+   email:mohammad@uskudar.edu.tr
+   clubname:uniunity
+   clubEmail: uniunity@uskudar.edu.tr
+   pass: cl123
+   phone: 0563333377
+
+
+2) name:rafi
+   email:rafi@uskudar.edu.tr
+   clubname:STRATEGIC RESEARCH AND DEVELOPMENT 
+   clubEmail:stratejikarastirmagelistirmekulubu@st.uskudar.edu.tr
+   pass: cl456
+   phone:0563578277
+
+

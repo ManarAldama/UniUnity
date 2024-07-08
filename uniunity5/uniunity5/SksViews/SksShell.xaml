@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    x:Class="uniunity5.SksViews.SksShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:sksviews="clr-namespace:uniunity5.SksViews">
+
+
+
+    <TabBar x:Name="sksTabBar">
+
+        <Tab Title="Home" Icon="home.png">
+            <ShellContent ContentTemplate="{DataTemplate sksviews:HomePageSks}" Route="HomePageSks" />
+        </Tab>
+
+
+        <Tab Title="Clubs" Icon="clubs.png">
+            <ShellContent ContentTemplate="{DataTemplate sksviews:ClubsPageSks}" Route="ClubsPageSks" />
+        </Tab>
+
+        <Tab Title="Account" Icon="account.png">
+            <ShellContent ContentTemplate="{DataTemplate sksviews:AccountPageSks}" Route="AccountPageSks" />
+        </Tab>
+
+    </TabBar>
+
+
+
+</Shell>

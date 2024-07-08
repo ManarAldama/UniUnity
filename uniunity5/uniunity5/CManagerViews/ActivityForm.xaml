@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="uniunity5.CManagerViews.ActivityForm"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+
+    <ScrollView>
+
+        <VerticalStackLayout Padding="30,0" Spacing="25">
+
+            <Grid TranslationY="40">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <!--  This column will auto-size to fit the image content  -->
+                    <ColumnDefinition Width="Auto" />
+                    <!--  This column will auto-size to fit the label content  -->
+                </Grid.ColumnDefinitions>
+
+                <!--  Image  -->
+                <Image
+                    Grid.Column="0"
+                    HeightRequest="20"
+                    Source="arrow.png"
+                    VerticalOptions="Center"
+                    WidthRequest="20">
+
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ArrowImage_Tapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <!--  Label  -->
+                <Label
+                    Grid.Column="1"
+                    FontSize="25"
+                    HorizontalOptions="End"
+                    TranslationX="50">
+
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span
+                                FontAttributes="Bold"
+                                Text="Üsküdar "
+                                TextColor="#01B399" />
+                            <Span FontAttributes="Bold" Text="University" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </Grid>
+
+
+            <StackLayout TranslationY="30">
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="30"
+                    HorizontalOptions="Start"
+                    Text="Activity Form"
+                    TextColor="Black"
+                    VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+
+
+
+
+
+
+            <!--  Upload Frame  -->
+            <Frame
+                x:Name="uploadFrame"
+                Margin="10"
+                Padding="10"
+                BackgroundColor="White"
+                BorderColor="#841FFD"
+                CornerRadius="10"
+                HeightRequest="200">
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="UploadFrame_Tapped" />
+                </Frame.GestureRecognizers>
+
+                <StackLayout>
+                    <Label
+                        x:Name="uploadposterLabel"
+                        FontSize="20"
+                        HorizontalOptions="Center"
+                        Text="upload Poster Here"
+                        TextColor="Gray"
+                        TranslationY="55" />
+
+                    <Image
+                        x:Name="uploadIcon"
+                        HeightRequest="25"
+                        HorizontalOptions="Center"
+                        Source="uploadicon.png"
+                        TranslationY="60"
+                        WidthRequest="25" />
+                </StackLayout>
+            </Frame>
+
+
+            <!--  Activity Name  -->
+            <Frame
+                Margin="10"
+                Padding="10"
+                BackgroundColor="White"
+                BorderColor="#841FFD"
+                CornerRadius="10">
+
+                <StackLayout>
+                    <Entry x:Name="ActivityEntry" Placeholder="Activity Name" />
+                </StackLayout>
+            </Frame>
+
+            <!--  date  -->
+            <Frame
+                Margin="10"
+                Padding="10"
+                BackgroundColor="White"
+                BorderColor="#841FFD"
+                CornerRadius="10">
+
+                <StackLayout>
+                    <Entry x:Name="DateEntry" Placeholder="Date (dd-mm-yy)" />
+                </StackLayout>
+            </Frame>
+
+            <!--  date  -->
+            <Frame
+                Margin="10"
+                Padding="10"
+                BackgroundColor="White"
+                BorderColor="#841FFD"
+                CornerRadius="10">
+
+                <StackLayout>
+                    <Entry x:Name="TimeEntry" Placeholder="Time (hh:mm)" />
+                </StackLayout>
+            </Frame>
+
+            <!--  Location  -->
+            <Frame
+                Margin="10"
+                Padding="10"
+                BackgroundColor="White"
+                BorderColor="#841FFD"
+                CornerRadius="10">
+                <StackLayout>
+                    <Entry x:Name="locationEntry" Placeholder="Location" />
+                </StackLayout>
+            </Frame>
+
+
+            <!--  Description  -->
+            <Frame
+                Margin="10"
+                Padding="10"
+                BackgroundColor="White"
+                BorderColor="#841FFD"
+                CornerRadius="10">
+                <StackLayout>
+                    <Editor x:Name="descriptionEntry" Placeholder="Description" />
+                </StackLayout>
+            </Frame>
+
+
+            <StackLayout TranslationY="-12">
+
+                <Button
+                    Clicked="OnRequestApprovalClicked"
+                    HorizontalOptions="Center"
+                    Text="Request Approval"
+                    WidthRequest="330" />
+            </StackLayout>
+
+
+
+            <ListView x:Name="activityform_view">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label x:Name="eventImage" Text="{Binding Image}" />
+                                <Label Text="{Binding EventName}" />
+                                <Label Text="{Binding EventDate, Mode=TwoWay}" />
+                                <Label Text="{Binding EventTime, Mode=TwoWay}" />
+                                <Label Text="{Binding EventPlace}" />
+                                <Label Text="{Binding Description}" />
+                            </StackLayout>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+
+
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+
+</ContentPage>

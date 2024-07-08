@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|c:\\users\\isc\\pictures\\vs projects\\uniunity5\\uniunity5\\uniunity5\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|solutionrelative:uniunity5\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|c:\\users\\isc\\pictures\\vs projects\\uniunity5\\uniunity5\\uniunity5\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|solutionrelative:uniunity5\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|c:\\users\\isc\\pictures\\vs projects\\uniunity5\\uniunity5\\uniunity5\\cmanagerviews\\homepagecmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|solutionrelative:uniunity5\\cmanagerviews\\homepagecmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|c:\\users\\isc\\pictures\\vs projects\\uniunity5\\uniunity5\\uniunity5\\cmanagerviews\\activityform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|solutionrelative:uniunity5\\cmanagerviews\\activityform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|c:\\users\\isc\\pictures\\vs projects\\uniunity5\\uniunity5\\uniunity5\\views\\homepagest.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|solutionrelative:uniunity5\\views\\homepagest.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|c:\\users\\isc\\pictures\\vs projects\\uniunity5\\uniunity5\\uniunity5\\datatransactions\\studenttrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|solutionrelative:uniunity5\\datatransactions\\studenttrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|c:\\users\\isc\\pictures\\vs projects\\uniunity5\\uniunity5\\uniunity5\\views\\exview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|solutionrelative:uniunity5\\views\\exview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|c:\\users\\isc\\pictures\\vs projects\\uniunity5\\uniunity5\\uniunity5\\cmanagerviews\\cmanagerexternalview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|solutionrelative:uniunity5\\cmanagerviews\\cmanagerexternalview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|c:\\users\\isc\\pictures\\vs projects\\uniunity5\\uniunity5\\uniunity5\\cmanagerviews\\cmanagerexternalview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|solutionrelative:uniunity5\\cmanagerviews\\cmanagerexternalview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|c:\\users\\isc\\pictures\\vs projects\\uniunity5\\uniunity5\\uniunity5\\cmanagerviews\\myclub.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303C2B9A-40CB-4906-B7B9-3E0A8348EFAE}|uniunity5\\uniunity5.csproj|solutionrelative:uniunity5\\cmanagerviews\\myclub.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\App.xaml.cs",
+              "RelativeDocumentMoniker": "uniunity5\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\App.xaml.cs",
+              "RelativeToolTip": "uniunity5\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T21:21:36.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\App.xaml",
+              "RelativeDocumentMoniker": "uniunity5\\App.xaml",
+              "ToolTip": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\App.xaml",
+              "RelativeToolTip": "uniunity5\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-26T21:21:31.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePageCManager.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\CManagerViews\\HomePageCManager.xaml.cs",
+              "RelativeDocumentMoniker": "uniunity5\\CManagerViews\\HomePageCManager.xaml.cs",
+              "ToolTip": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\CManagerViews\\HomePageCManager.xaml.cs",
+              "RelativeToolTip": "uniunity5\\CManagerViews\\HomePageCManager.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T15:40:52.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ActivityForm.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\CManagerViews\\ActivityForm.xaml.cs",
+              "RelativeDocumentMoniker": "uniunity5\\CManagerViews\\ActivityForm.xaml.cs",
+              "ToolTip": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\CManagerViews\\ActivityForm.xaml.cs",
+              "RelativeToolTip": "uniunity5\\CManagerViews\\ActivityForm.xaml.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAAAFUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T15:38:23.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomePageSt.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\Views\\HomePageSt.xaml.cs",
+              "RelativeDocumentMoniker": "uniunity5\\Views\\HomePageSt.xaml.cs",
+              "ToolTip": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\Views\\HomePageSt.xaml.cs",
+              "RelativeToolTip": "uniunity5\\Views\\HomePageSt.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T13:21:09.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentTrans.cs",
+              "DocumentMoniker": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\DataTransactions\\StudentTrans.cs",
+              "RelativeDocumentMoniker": "uniunity5\\DataTransactions\\StudentTrans.cs",
+              "ToolTip": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\DataTransactions\\StudentTrans.cs",
+              "RelativeToolTip": "uniunity5\\DataTransactions\\StudentTrans.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T13:20:37.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\Views\\ExView.xaml.cs",
+              "RelativeDocumentMoniker": "uniunity5\\Views\\ExView.xaml.cs",
+              "ToolTip": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\Views\\ExView.xaml.cs",
+              "RelativeToolTip": "uniunity5\\Views\\ExView.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T18:56:13.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CManagerExternalView.xaml",
+              "DocumentMoniker": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\CManagerViews\\CManagerExternalView.xaml",
+              "RelativeDocumentMoniker": "uniunity5\\CManagerViews\\CManagerExternalView.xaml",
+              "ToolTip": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\CManagerViews\\CManagerExternalView.xaml",
+              "RelativeToolTip": "uniunity5\\CManagerViews\\CManagerExternalView.xaml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-18T18:54:18.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CManagerExternalView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\CManagerViews\\CManagerExternalView.xaml.cs",
+              "RelativeDocumentMoniker": "uniunity5\\CManagerViews\\CManagerExternalView.xaml.cs",
+              "ToolTip": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\CManagerViews\\CManagerExternalView.xaml.cs",
+              "RelativeToolTip": "uniunity5\\CManagerViews\\CManagerExternalView.xaml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T18:53:53.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyClub.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\CManagerViews\\MyClub.xaml.cs",
+              "RelativeDocumentMoniker": "uniunity5\\CManagerViews\\MyClub.xaml.cs",
+              "ToolTip": "C:\\Users\\isc\\Pictures\\VS projects\\uniunity5\\uniunity5\\uniunity5\\CManagerViews\\MyClub.xaml.cs",
+              "RelativeToolTip": "uniunity5\\CManagerViews\\MyClub.xaml.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T12:58:31.978Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

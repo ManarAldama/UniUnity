@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="uniunity5.Welcome"
+             Shell.TabBarIsVisible="False">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0" Spacing="25">
+
+            <Label Text="Welcome" FontAttributes="Bold"
+              FontSize="28"
+              HorizontalOptions="Center"
+              Margin="0,40,20,0"/>
+
+
+
+            <Image Source="logo1.PNG" WidthRequest="370" HeightRequest="280"
+              Aspect="AspectFit"
+              HorizontalOptions="Center"
+              VerticalOptions="Center" />
+
+
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Label Text="UniUnity" TextColor="DarkGreen" FontSize="20" FontFamily="Poppins-Regular" />
+                    <Label Text=" is a platform where user" TextColor="Black" FontSize="20" FontFamily="Poppins-Regular" />
+                </StackLayout>
+
+                <Label Text="can Find and join university clubs" TextColor="Black" FontSize="20" FontFamily="Poppins-Regular" HorizontalOptions="Center" />
+
+                <Label Text="and events easily." TextColor="Black" FontSize="20" FontFamily="Poppins-Regular" HorizontalOptions="Center" />
+
+                <Label Text="Stay updated, connect with peers," TextColor="Black" FontSize="20" FontFamily="Poppins-Regular" HorizontalOptions="Center" />
+
+                <Label Text="and make the most of your campus" TextColor="Black" FontSize="20" FontFamily="Poppins-Regular" HorizontalOptions="Center" />
+
+                <Label Text="experience." TextColor="Black" FontSize="20" FontFamily="Poppins-Regular" HorizontalOptions="Center" />
+            </StackLayout>
+
+
+
+            <Frame BackgroundColor="#01B399" CornerRadius="5" Padding="5" Margin="20">
+
+                <Button
+           x:Name="CounterBtn"
+           TextColor="White"
+           FontFamily="Poppins-Regular"
+            BackgroundColor="#01B399"
+           Text="START" 
+           SemanticProperties.Hint="Counts the number of times you click"
+           Clicked="OnCounterClicked"
+           FontSize="23"
+           HorizontalOptions="Fill" />
+            </Frame>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

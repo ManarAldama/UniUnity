@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="uniunity5.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:uniunity5"
+    xmlns:views="clr-namespace:uniunity5.Views">
+
+
+
+
+
+
+
+    <TabBar x:Name="studentTabBar">
+
+        <Tab Title="Home" Icon="home.png">
+            <ShellContent ContentTemplate="{DataTemplate views:HomePageSt}" Route="HomePageSt" />
+        </Tab>
+
+
+        <Tab Title="Clubs" Icon="clubs.png">
+            <ShellContent ContentTemplate="{DataTemplate views:ClubsPageSt}" Route="ClubsPageSt" />
+        </Tab>
+
+        <Tab Title="Account" Icon="account.png">
+            <ShellContent ContentTemplate="{DataTemplate views:AccountPageSt}" Route="AccountPageSt" />
+        </Tab>
+
+    </TabBar>
+
+
+
+
+
+
+</Shell>

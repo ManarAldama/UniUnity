@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="uniunity5.CManagerViews.CManagerExternalView"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:clubtrans="clr-namespace:uniunity5.DataTransactions"
+    Title="CManagerExternalView">
+
+    <ContentPage.BindingContext>
+        <clubtrans:ClubManagerTrans />
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <Label FontAttributes="Bold" Text="Club Manager:" />
+
+            <Label Text="name" />
+            <Entry x:Name="Name" />
+
+            <Label Text="email" />
+            <Entry x:Name="Email" />
+
+
+            <Label Text="club name" />
+            <Entry x:Name="clubname" />
+
+            <Label Text="club email" />
+            <Entry x:Name="clubEmail" />
+
+            <Label Text="password" />
+            <Entry x:Name="Password" />
+
+
+            <Label Text="phone" />
+            <Entry x:Name="Phone" />
+
+
+            <Button Clicked="Button_Clicked" Text="add" />
+            <Button Clicked="Button_Clicked_1" Text="delete" />
+
+
+            <ListView
+                x:Name="clubmanagerlist"
+                HasUnevenRows="True"
+                ItemTapped="clubmanagerlist_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                                <Label Text="{Binding ClubManagerName}" TextColor="Black" />
+                                <Label Text="{Binding ClubManagerPassword}" TextColor="Black" />
+                                <Label Text="{Binding ClubManagerEmail}" TextColor="Black" />
+                                <Label Text="{Binding ClubName}" TextColor="Black" />
+                                <Label Text="{Binding ClubEmail}" TextColor="Black" />
+                                <Label Text="{Binding ClubManagerPhone}" TextColor="Black" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

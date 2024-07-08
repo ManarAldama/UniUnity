@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="uniunity5.SksViews.ClubsPageSks"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0" Spacing="15">
+
+
+            <Frame
+                Margin="10,40,10,0"
+                Padding="0"
+                BackgroundColor="White"
+                BorderColor="#841FFD"
+                CornerRadius="10"
+                HeightRequest="40"
+                WidthRequest="350">
+
+                <SearchBar
+                    x:Name="searchBar"
+                    CancelButtonColor="Gray"
+                    TextChanged="SearchBar_TextChanged" />
+            </Frame>
+
+
+
+
+            <StackLayout Margin="-10,20,10,10" Orientation="Horizontal">
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="20"
+                    Text="STUDENT CLUBS" />
+
+                <Button
+                    BackgroundColor="#01B399"
+                    Clicked="Button_Clicked"
+                    FontAttributes="Bold"
+                    HorizontalOptions="EndAndExpand"
+                    Text="Add Club"
+                    TextColor="White"
+                    TranslationY="-5"
+                    WidthRequest="100" />
+
+            </StackLayout>
+
+
+            <StackLayout>
+
+                <ListView
+                    x:Name="Club_view"
+                    FlexLayout.Grow="1"
+                    HasUnevenRows="True"
+                    ItemTapped="Club_view_ItemTapped"
+                    ItemsSource="{Binding Club}"
+                    RowHeight="70">
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame
+                                    Padding="0,16,16,16"
+                                    BackgroundColor="AliceBlue"
+                                    CornerRadius="5"
+                                    HeightRequest="80">
+
+
+                                    <StackLayout Orientation="Horizontal">
+
+
+                                        <StackLayout Orientation="Horizontal">
+                                            <Image
+                                                x:Name="clubImage"
+                                                Aspect="AspectFit"
+                                                HeightRequest="50"
+                                                HorizontalOptions="StartAndExpand"
+                                                Source="{Binding ImageSourceclub}"
+                                                WidthRequest="50" />
+
+                                            <Label
+                                                Margin="10,10,10,10"
+                                                FontFamily="row_headline"
+                                                HorizontalOptions="EndAndExpand"
+                                                Text="{Binding ClubName}" />
+                                        </StackLayout>
+
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontSize="30"
+                                            HorizontalOptions="EndAndExpand"
+                                            Text="→"
+                                            TextColor="Black" />
+
+                                    </StackLayout>
+                                </Frame>
+
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

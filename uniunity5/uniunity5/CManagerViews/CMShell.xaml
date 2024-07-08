@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    x:Class="uniunity5.CManagerViews.CMShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:cmviews="clr-namespace:uniunity5.CManagerViews">
+
+
+    <TabBar x:Name="cmTabBar">
+
+        <Tab Title="Home" Icon="home.png">
+            <ShellContent ContentTemplate="{DataTemplate cmviews:HomePageCManager}" Route="HomePageCManager" />
+        </Tab>
+
+        <Tab Title="Clubs" Icon="clubs.png">
+            <ShellContent ContentTemplate="{DataTemplate cmviews:ClubsPageCM}" Route="ClubsPageCM" />
+        </Tab>
+
+        <Tab Title="My Club" Icon="myclub.png">
+            <ShellContent ContentTemplate="{DataTemplate cmviews:MyClub}" Route="MyClub" />
+        </Tab>
+
+        <Tab Title="Account" Icon="account.png">
+            <ShellContent ContentTemplate="{DataTemplate cmviews:AccountPageCManager}" Route="AccountPageCManager" />
+        </Tab>
+
+    </TabBar>
+
+
+
+
+</Shell>

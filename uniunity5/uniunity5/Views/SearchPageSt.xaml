@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="uniunity5.Views.SearchPageSt" >
+
+    <ScrollView>
+        <VerticalStackLayout
+          Padding="30,0"
+          Spacing="25">
+            <Label 
+              Style="{StaticResource Headline}"
+              TranslationY="40"
+              FontSize="25"
+              SemanticProperties.HeadingLevel="Level1"
+              HorizontalOptions="Start">
+
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Üsküdar " TextColor="#01B399" FontAttributes="Bold"/>
+                        <Span Text="University" FontAttributes="Bold"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+
+            <StackLayout TranslationY="40">
+                <Frame 
+                  CornerRadius="15"
+                  Padding="0"
+                  BackgroundColor="White"
+                  BorderColor="#841FFD"
+                  WidthRequest="350"
+                  HeightRequest="40"
+                  Margin="5,10,5,0">
+
+                    <SearchBar 
+                        Placeholder="Search for Events"
+                        Text="{Binding SearchText}"
+                        SearchCommandParameter="{Binding SearchText}" />
+                </Frame>
+
+
+                <Frame
+                  
+                  CornerRadius="15"
+                  BackgroundColor="#C18FFE"
+                  BorderColor="#C18FFE"
+                  WidthRequest="63"
+                  HeightRequest="30"
+                  Padding="5"
+                  TranslationX="-9"
+                  TranslationY="-35"
+                  HorizontalOptions="End">
+                    <Label Text="Filters" FontSize="13" HorizontalOptions="Center" FontAttributes="Bold"/>
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="FiltersFrameTapped"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+
+
+
+                <Image Source="date.png" 
+                     Aspect="AspectFit"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"
+                     TranslationY="-64"
+                     TranslationX="85"
+                     WidthRequest="23"
+                     HeightRequest="23"
+                     Focused="Image_Focused"/>
+            </StackLayout>
+
+
+            <Label Text="Cateogary" TranslationY="10"
+             FontSize="20"
+             HorizontalOptions="FillAndExpand"
+             VerticalOptions="CenterAndExpand"
+             TextColor="#787878"
+             FontAttributes="Bold"
+             TranslationX="25"/>
+
+
+            <StackLayout Orientation="Vertical">
+                <!-- First row -->
+                <StackLayout Orientation="Horizontal">
+
+                    <Frame 
+                     BackgroundColor="#F5F7FB"
+                     CornerRadius="10" 
+                     BorderColor="#F5F7FB"
+                     Margin="5" 
+                     WidthRequest="100"
+                     HeightRequest="35"
+                     Padding="10,5">
+                        <Label Text="Humanity" FontSize="Small" TextColor="#787878" HorizontalOptions="Start" VerticalOptions="StartAndExpand"  />
+                    </Frame>
+
+
+                    <Frame 
+                     BackgroundColor="#F5F7FB"
+                     CornerRadius="10" 
+                     BorderColor="#F5F7FB"
+                     Margin="5" 
+                     WidthRequest="100"
+                     HeightRequest="35"
+                     Padding="10,5">
+                        <Label Text="Technology" FontSize="Small" TextColor="#787878" HorizontalOptions="Center" VerticalOptions="Center" />
+                    </Frame>
+
+
+                    <Frame 
+                     BackgroundColor="#F5F7FB"
+                     CornerRadius="10" 
+                     BorderColor="#F5F7FB"
+                     Margin="5" 
+                     WidthRequest="55"
+                     HeightRequest="35"
+                     Padding="10,5">
+                        <Label Text="Art" FontSize="Small" TextColor="#787878" HorizontalOptions="Center" VerticalOptions="Center" />
+                    </Frame>
+
+                </StackLayout>
+                <!-- Second row -->
+                <StackLayout Orientation="Horizontal">
+                    <Frame 
+          BackgroundColor="#F5F7FB"
+           CornerRadius="10" 
+           BorderColor="#F5F7FB"
+           Margin="5" 
+           WidthRequest="80"
+           HeightRequest="35"
+           Padding="10,5">
+                        <Label Text="Science" FontSize="Small" TextColor="#787878" HorizontalOptions="Center" VerticalOptions="Center" />
+                    </Frame>
+                    <Frame 
+          BackgroundColor="#F5F7FB"
+           CornerRadius="10" 
+           BorderColor="#F5F7FB"
+           Margin="5" 
+           WidthRequest="85"
+           HeightRequest="35"
+           Padding="10,5">
+                        <Label Text="Politics" FontSize="Small" TextColor="#787878" HorizontalOptions="Center" VerticalOptions="Center" />
+                    </Frame>
+                    <Frame 
+          BackgroundColor="#F5F7FB"
+           CornerRadius="10" 
+           BorderColor="#F5F7FB"
+           Margin="5" 
+           WidthRequest="80"
+           HeightRequest="35"
+           Padding="10,5">
+                        <Label Text="Sports" FontSize="Small" TextColor="#787878" HorizontalOptions="Center" VerticalOptions="Center" />
+                    </Frame>
+
+                </StackLayout>
+                <!-- Third row -->
+                <StackLayout Orientation="Horizontal">
+                    <Frame 
+          BackgroundColor="#F5F7FB"
+           CornerRadius="10" 
+           BorderColor="#F5F7FB"
+           Margin="5" 
+           WidthRequest="150"
+           HeightRequest="35"
+           Padding="10,5">
+                        <Label Text="Community Service" FontSize="Small" TextColor="#787878" HorizontalOptions="Center" VerticalOptions="Center" />
+                    </Frame>
+
+                    <Frame 
+          BackgroundColor="#F5F7FB"
+           CornerRadius="10" 
+           BorderColor="#F5F7FB"
+           Margin="5" 
+           WidthRequest="90"
+           HeightRequest="35"
+           Padding="10,5">
+                        <Label Text="Business" FontSize="Small" TextColor="#787878" HorizontalOptions="Center" VerticalOptions="Center" />
+                    </Frame>
+                </StackLayout>
+            </StackLayout>
+
+
+
+
+
+
+
+
+            <StackLayout Orientation="Horizontal" TranslationY="10" >
+                <Label Text="Humanity"
+                    FontSize="20"
+                    HorizontalOptions="Start"
+                    VerticalOptions="CenterAndExpand"
+                    TextColor="#787878"
+                    FontAttributes="Bold"
+                    TranslationX="10"/>
+
+                <Frame BackgroundColor="#F2F2F2"
+                    CornerRadius="17" 
+                    BorderColor="#F5F7FB"
+                    Margin="5" 
+                    WidthRequest="90"
+                    HeightRequest="35"
+                    Padding="10,5"
+                    HorizontalOptions="EndAndExpand">
+
+                    <Label Text="View All" 
+                          FontSize="Small" 
+                          TextColor="#787878" 
+                          HorizontalOptions="StartAndExpand" 
+                          VerticalOptions="StartAndExpand" 
+                          WidthRequest="100"/>
+                </Frame>
+
+            </StackLayout>
+
+
+
+
+            <!-- First Frames -->
+            <ScrollView Orientation="Horizontal">
+
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Frame 
+                       BackgroundColor="#FEFEFE"
+                       BorderColor="#F5F7FB"
+                       CornerRadius="5"
+                       HasShadow="True"
+                       Padding="10"
+                       HorizontalOptions="Start"
+                       HeightRequest="170"
+                       WidthRequest="170">
+
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnFrameTapped"/>
+                        </Frame.GestureRecognizers>
+
+                        <StackLayout Spacing="5" VerticalOptions="Center" HorizontalOptions="Center">
+                            <Image Source="image1.jpeg"
+                                 Aspect="AspectFit"
+                                 HorizontalOptions="Center"
+                                 VerticalOptions="Center"
+                                 WidthRequest="100"
+                                 HeightRequest="100"/>
+                            <Label x:Name="myLabel"
+                                 Text="Tackling Addiction Youth"
+                                 HorizontalOptions="Start" 
+                                 VerticalOptions="CenterAndExpand" 
+                                 TextColor="Black"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Frame 2 -->
+                    <Frame BackgroundColor="#FEFEFE"
+             BorderColor="#F5F7FB"
+             CornerRadius="5"
+             HasShadow="True"
+             Padding="10"
+             HorizontalOptions="Start"
+             HeightRequest="170"
+             WidthRequest="170">
+
+                        <!-- Frame.GestureRecognizers>
+              <TapGestureRecognizer Tapped="OnFrameTapped"/>
+          </Frame.GestureRecognizers -->
+
+                        <StackLayout Spacing="5">
+                            <Image x:Name="ImageViewPage"
+              Source="imageevent2.png" 
+                     Aspect="AspectFit"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"
+                     WidthRequest="100"
+                     HeightRequest="100"/>
+
+                            <Label Text="event2" 
+                     HorizontalOptions="Start" 
+                     VerticalOptions="CenterAndExpand" 
+                     TextColor="Black" />
+                        </StackLayout>
+                    </Frame>
+                    <!-- test -->
+
+                    <Frame BackgroundColor="#FEFEFE"
+             BorderColor="#F5F7FB"
+             CornerRadius="5"
+             HasShadow="True"
+             Padding="10"
+             HorizontalOptions="Start"
+             HeightRequest="170"
+             WidthRequest="170">
+
+                        <!-- Frame.GestureRecognizers>
+              <TapGestureRecognizer Tapped="OnFrameTapped"/>
+          </Frame.GestureRecognizers -->
+
+                        <StackLayout Spacing="5">
+                            <Image Source="imageevent2.png" 
+                     Aspect="AspectFit"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"
+                     WidthRequest="100"
+                     HeightRequest="100"/>
+
+                            <Label Text="event2" 
+                     HorizontalOptions="Start" 
+                     VerticalOptions="CenterAndExpand" 
+                     TextColor="Black" />
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </ScrollView>
+
+
+            <StackLayout Orientation="Horizontal" TranslationY="17">
+                <Label Text="Techology"
+         FontSize="20"
+         HorizontalOptions="Start"
+         VerticalOptions="CenterAndExpand"
+         TextColor="#787878"
+         FontAttributes="Bold"
+         TranslationX="10"/>
+
+
+
+                <Frame BackgroundColor="#F2F2F2"
+         CornerRadius="17" 
+         BorderColor="#F5F7FB"
+         Margin="5" 
+         WidthRequest="80"
+         HeightRequest="35"
+         Padding="10,5"
+         HorizontalOptions="EndAndExpand">
+                    <Label Text="View all" 
+             FontSize="Small" 
+             TextColor="#787878" 
+             HorizontalOptions="Center" 
+             VerticalOptions="CenterAndExpand" />
+                </Frame>
+
+            </StackLayout>
+
+
+
+
+
+
+            <!-- 3 Frames -->
+            <ScrollView Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal" Spacing="20">
+                    <Frame BackgroundColor="#FEFEFE"
+             BorderColor="#F5F7FB"
+             CornerRadius="5"
+             HasShadow="True"
+             Padding="10"
+             HorizontalOptions="Start"
+             HeightRequest="170"
+             WidthRequest="170">
+
+                        <!-- Frame.GestureRecognizers>
+              <TapGestureRecognizer Tapped="OnFrameTapped"/>
+          </Frame.GestureRecognizers -->
+
+                        <StackLayout Spacing="5" VerticalOptions="Center" HorizontalOptions="Center">
+                            <Image Source="imageevent4.png"
+                 Aspect="AspectFit"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"
+                     WidthRequest="100"
+                     HeightRequest="100"/>
+                            <Label Text="event4"
+                     HorizontalOptions="Start" 
+                     VerticalOptions="CenterAndExpand" 
+                     TextColor="Black"/>
+                        </StackLayout>
+                    </Frame>
+                    <!-- Frame 4 -->
+                    <Frame BackgroundColor="#FEFEFE"
+             BorderColor="#F5F7FB"
+             CornerRadius="5"
+             HasShadow="True"
+             Padding="10"
+             HorizontalOptions="Start"
+             HeightRequest="170"
+             WidthRequest="170">
+
+                        <!-- Frame.GestureRecognizers>
+              <TapGestureRecognizer Tapped="OnFrameTapped"/>
+          </Frame.GestureRecognizers -->
+
+                        <StackLayout Spacing="5">
+                            <Image Source="imageevent2.png" 
+                     Aspect="AspectFit"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"
+                     WidthRequest="100"
+                     HeightRequest="100"/>
+
+                            <Label Text="event5" 
+                     HorizontalOptions="Start" 
+                     VerticalOptions="CenterAndExpand" 
+                     TextColor="Black" />
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="#FEFEFE"
+             BorderColor="#F5F7FB"
+             CornerRadius="5"
+             HasShadow="True"
+             Padding="10"
+             HorizontalOptions="Start"
+             HeightRequest="170"
+             WidthRequest="170">
+
+                        <!-- Frame.GestureRecognizers>
+              <TapGestureRecognizer Tapped="OnFrameTapped"/>
+          </Frame.GestureRecognizers -->
+
+                        <StackLayout Spacing="5" VerticalOptions="Center" HorizontalOptions="Center">
+                            <Image Source="imageevent4.png"
+                 Aspect="AspectFit"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"
+                     WidthRequest="100"
+                     HeightRequest="100"/>
+                            <Label Text="event4"
+                     HorizontalOptions="Start" 
+                     VerticalOptions="CenterAndExpand" 
+                     TextColor="Black"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </ScrollView>
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>

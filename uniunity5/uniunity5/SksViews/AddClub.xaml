@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="uniunity5.SksViews.AddClub" >
+
+    <ScrollView>
+
+
+        <VerticalStackLayout Padding="30,0" Spacing="20">
+
+            <Grid TranslationY="40">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <!-- This column will auto-size to fit the image content -->
+                    <ColumnDefinition Width="Auto"/>
+                    <!-- This column will auto-size to fit the label content -->
+                </Grid.ColumnDefinitions>
+
+                <!-- Image -->
+                <Label Grid.Column="0" 
+                      Text="←"
+                      FontSize="25"
+                      FontAttributes="Bold"
+                      
+                      TextColor="Black"
+                      HorizontalOptions="Start"                  
+                      TranslationX="-5"
+                      VerticalOptions="Start">
+                    
+                   <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                  </Label.GestureRecognizers>
+
+                </Label>
+
+                <!-- Label -->
+                <Label Grid.Column="1" 
+                      TranslationX="20"
+                      FontSize="25"
+                      HorizontalOptions="End">
+
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Üsküdar " TextColor="#01B399" FontAttributes="Bold"/>
+                            <Span Text="University" FontAttributes="Bold"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </Grid>
+
+
+            <StackLayout TranslationY="30">
+                <Label Text="Add Club"
+                       FontSize="30"
+                       HorizontalOptions="Start"
+                       VerticalOptions="CenterAndExpand"
+                       TextColor="Black"
+                       FontAttributes="Bold"/>
+            </StackLayout>
+
+            
+           
+                
+
+       
+                        <!-- Upload Frame -->
+            <Frame x:Name="uploadFrame" CornerRadius="10"
+                   Margin="10"
+                   Padding="10"
+                   HeightRequest="200"
+                   BackgroundColor="White"
+                   BorderColor="#841FFD" >
+
+                  <Frame.GestureRecognizers>
+                      <TapGestureRecognizer Tapped="UploadFrame_Tapped" />
+                  </Frame.GestureRecognizers>
+
+                  <StackLayout>
+                     <Label x:Name="uploadStatusLabel" Text="Upload Logo" 
+                            TranslationY="55" 
+                            TextColor="Gray"
+                            FontSize="20" 
+                            HorizontalOptions="Center"/>
+
+                     <Image x:Name="uploadIcon" TranslationY="60"
+                            Source="uploadicon.png"
+                            HorizontalOptions="Center"
+                            WidthRequest="25"
+                            HeightRequest="25"/>
+                  </StackLayout>
+            </Frame>
+    
+
+                        <!-- Club Name -->
+            <Frame CornerRadius="10" Margin="10" Padding="10"
+                   BackgroundColor="White" BorderColor="#841FFD">
+
+                  <StackLayout>
+                      <Entry x:Name="ClubNameEntry" Placeholder="Club Name"/>
+                  </StackLayout>
+            </Frame>
+
+                        <!-- Manager Name -->
+            <Frame CornerRadius="10" Margin="10" Padding="10"
+                   BackgroundColor="White" BorderColor="#841FFD">
+                
+                   <StackLayout>
+                      <Entry x:Name="managerNameEntry" Placeholder="Manager Name" />
+                   </StackLayout>
+            </Frame>
+
+                        <!-- Email Address -->
+            <Frame CornerRadius="10" Margin="10" Padding="10"
+                   BackgroundColor="White" BorderColor="#841FFD">
+                       <StackLayout>
+                            <Entry x:Name="clubEmailEntry" Placeholder="Club Email" />
+                       </StackLayout>
+            </Frame>
+
+
+                        <!-- Description -->
+            <Frame CornerRadius="10" Margin="10" Padding="10"
+                   BackgroundColor="White" BorderColor="#841FFD">
+                        <StackLayout>
+                             <Editor x:Name="descriptionEntry" Placeholder="Description" />
+                        </StackLayout>
+            </Frame>
+                 
+
+            <StackLayout TranslationY="-12">
+                          
+                <Button Text="Create" 
+                        Clicked="OnCreateClicked"
+                        WidthRequest="330"
+                        HorizontalOptions="Center" />
+            </StackLayout>
+
+
+
+            <ListView x:Name="ClubList_view">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="{Binding ImageData}"/>
+                                <Label Text="{Binding ClubName}"/>
+                                <Label Text="{Binding ClubManagerName}"/>
+                                <Label Text="{Binding ClubEmail}"/>
+                                <Label Text="{Binding Description}"/>
+                            </StackLayout>
+                            
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+     
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>

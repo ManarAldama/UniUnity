@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="uniunity5.CManagerViews.MyClub"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0" Spacing="25">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <!--  Column for text  -->
+                    <ColumnDefinition Width="Auto" />
+                    <!--  Column for image  -->
+                </Grid.ColumnDefinitions>
+
+                <!--  uskudar text with notification icon  -->
+                <Label
+                    Grid.Column="0"
+                    FontSize="25"
+                    HorizontalOptions="CenterAndExpand"
+                    SemanticProperties.HeadingLevel="Level1"
+                    Style="{StaticResource Headline}"
+                    VerticalOptions="CenterAndExpand">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Üsküdar " TextColor="#01B399" />
+                            <Span Text="University" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Image
+                    Grid.Column="1"
+                    HeightRequest="30"
+                    HorizontalOptions="End"
+                    Source="bell.png"
+                    WidthRequest="30">
+
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="BellImage_Tapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+
+            </Grid>
+
+            <StackLayout Margin="-10,20,0,10" Orientation="Horizontal">
+                <Label
+                    x:Name="ClubNamelabel"
+                    FontAttributes="Bold"
+                    FontSize="18"
+                    HorizontalOptions="Start"
+                    LineBreakMode="CharacterWrap"
+                    Text="{Binding ClubName}" />
+
+
+            </StackLayout>
+
+            <StackLayout Margin="-10,20,10,10" Orientation="Horizontal">
+                <!--  Today's event  -->
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="25"
+                    HorizontalOptions="Start"
+                    Text="Events"
+                    TextColor="Black" />
+
+                <Button
+                    BackgroundColor="#01B399"
+                    Clicked="Button_Clicked"
+                    FontSize="13"
+                    HorizontalOptions="EndAndExpand"
+                    Text="Create a new event"
+                    TextColor="White"
+                    TranslationY="-5"
+                    WidthRequest="150" />
+
+            </StackLayout>
+            <StackLayout>
+
+                <ListView
+                    x:Name="myClub_view"
+                    BackgroundColor="Transparent"
+                    FlexLayout.Grow="1"
+                    HasUnevenRows="True"
+                    ItemTapped="myClub_view_ItemTapped"
+                    ItemsSource="{Binding Events}"
+                    RowHeight="70"
+                    SeparatorColor="Silver">
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame Padding="12,16,16,16" BackgroundColor="AliceBlue">
+                                    <StackLayout Orientation="Horizontal">
+
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                            </Grid.RowDefinitions>
+
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="*" />
+
+                                            </Grid.ColumnDefinitions>
+                                        </Grid>
+
+                                        <StackLayout Orientation="Horizontal">
+                                            <Image
+                                                x:Name="eventimage"
+                                                Grid.RowSpan="3"
+                                                HeightRequest="50"
+                                                HorizontalOptions="StartAndExpand"
+                                                Source="{Binding ImageSource}"
+                                                WidthRequest="50" />
+
+                                            <Label
+                                                x:Name="eventnamelabell"
+                                                Grid.Row="1"
+                                                Grid.Column="1"
+                                                FontFamily="row_headline"
+                                                HorizontalOptions="Start"
+                                                Text="{Binding EventName}" />
+
+                                        </StackLayout>
+
+
+                                    </StackLayout>
+                                </Frame>
+
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>
